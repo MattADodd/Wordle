@@ -77,7 +77,6 @@ def lose_popup():
         if widget.winfo_class() == 'Button':
             widget.config(state=DISABLED)
 
-#frame = Frame(root)
 
 first_entry1 = Label(text = '', width=5, height=5, fg='white', bg='black')
 first_entry1.grid(row=0, column=1, padx=10, pady=10)
